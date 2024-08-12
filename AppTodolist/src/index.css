@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+  
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.list-group-item {
+  display: flex;
+  align-items: center;
+}
+
+.list-group-item input {
+  margin-right: 10px;
+}
+
+form {
+  margin-top: 20px;
+}

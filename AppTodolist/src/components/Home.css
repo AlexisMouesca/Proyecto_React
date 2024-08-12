@@ -1,0 +1,39 @@
+.task-table {
+    border: 1px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 20px;
+  }
+  
+  .task-table-header, .task-table-row {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid black;
+  }
+
+  .task-table-header {
+    background-color: #343a40;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .task-table-row {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .task-table-row:nth-of-type(odd) {
+    background-color: rgb(90, 85, 85);
+  }
+  
+  .task-table-column {
+    flex: 1;
+    text-align: left;
+    padding: 10px;
+  }
+  
+  .task-table-row:last-child {
+    border-bottom: none;
+  }
+  
